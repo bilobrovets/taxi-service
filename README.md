@@ -12,9 +12,6 @@ Then, you can:
 - Display All Cars
 - Display All Manufacturers
 
-
-  <img height="301" src="https://drive.google.com/drive/u/0/my-drive" width="661"/>
-
 ### Implementation details:
 This project is based on a 3-tier architecture:  
 1. Data access layer (DAO)  
