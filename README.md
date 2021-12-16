@@ -34,8 +34,10 @@ This project is based on a 3-tier architecture:
 3. Clone the project to your IDE
 4. Use a script from the file taxi-service\src\main\resources\init_db.sql to create a database
 5. Open the class taxi-service\src\main\java\taxi\util\ConnectionUtil.java and replace the value of the  
-   constants: URL, USERNAME, PASSWORD, JDBC_DRIVER with your data
-6. Configure Apache Tomcat (Add New Configuration -> TomCat -> Local -> Fix -> taxi-service:war exploded -> OK)
-7. Run the application
+   constants: URL, USERNAME, PASSWORD, JDBC_DRIVER with your data  
+6. Open the file taxi-service\src\main\resources\log4j2.xml and   
+   replace the value of the parameter "fileName" with your absolute path to the log file 
+7. Configure Apache Tomcat (Add New Configuration -> TomCat -> Local -> Fix -> taxi-service:war exploded -> OK)
+8. Run the application
 
 
