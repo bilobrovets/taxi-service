@@ -31,7 +31,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>deleteDriver</servlet-name>
-        <url-pattern>/drivers/delete</url-pattern>
+        <url-pattern>/drivers</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -76,7 +76,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>deleteCar</servlet-name>
-        <url-pattern>/cars/delete</url-pattern>
+        <url-pattern>/cars</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -103,7 +103,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>deleteManufacturer</servlet-name>
-        <url-pattern>/manufacturers/delete</url-pattern>
+        <url-pattern>/manufacturers</url-pattern>
     </servlet-mapping>
 
     <servlet>
